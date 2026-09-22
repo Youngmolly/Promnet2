@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9ecef;
+    color: #212529;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+  }
+  
+  h1 {
+    color: #0d6efd;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #0b5ed7;
+    font-size: 22px;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #333333;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 20px 0;
+  }
+  
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0a58ca;
+  }
+  
+  img {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 4px;
+    margin: 10px 0;
+  }
+  
+  ul, ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  select,
+  textarea {
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+ 
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"] {
+    background-color: #198754;
+    color: white;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #157347;
+  }
+  
+  input[type="reset"] {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #5c636a;
+  }
